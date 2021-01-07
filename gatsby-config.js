@@ -6,5 +6,6 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  pathPrefix: `/GatsbyTest`,
+  plugins: ["gatsby-plugin-offline"]
 }
